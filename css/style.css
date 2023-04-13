@@ -58,11 +58,13 @@ table {
 
 @font-face {
     font-family: 'Aboreto';
-    src: url(aboreto/Aboreto-Regular.ttf) format('truetype');
+    src: url(/assets/fonts/aboreto/Aboreto-Regular.ttf) format('truetype');
  }
 
 .container{
-    background-image: url("fundo-aquarela-abstrato-pintado-a-mao/5660676.jpg");
+    background-image: url("/assets/img/fundo-aquarela-abstrato-pintado-a-mao/5660676.jpg");
+    height: 100vh;
+    width: 100vw;
 }
 
 header{

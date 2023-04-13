@@ -1,32 +1,136 @@
-p{
-    width: 100%;
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
-    overflow: hidden;
     padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: black;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
-#header-title{
-    color: white;
-    font-size: 3em;
-    font-weight: 600;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    letter-spacing: 0.15em;
-    margin-top: 40px;
+body {
+    line-height: 1;
+    background-image: url("fundo-aquarela-abstrato-pintado-a-mao/5660676.jpg");
+    width: 100%;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Home */
+
+@font-face {
+    font-family: 'Aboreto';
+    src: url(Aboreto/Aboreto-Regular.ttf) format('truetype');
+ }
+
+.container{
+    background-image: url("fundo-aquarela-abstrato-pintado-a-mao/5660676.jpg");
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
-#logo-container{
+.logo-container{
+    margin: 30px 400px 0 0;
+}
+
+#pipe{
+    color:#d3d3d3;
+    font-size: 3.5rem;
+    font-family: 'Aboreto';
+}
+
+#logo-letter{
+    color:#d3d3d3;
+    font-size: 3.5em;
+    font-family: 'Aboreto';
+}
+
+.body-container{
     display: flex;
     justify-content: center;
+    margin: 50px 100px 0 0;
 }
 
-#logo{
-    width: 250px;
-    height: 200px;
-    display: block;
+#my_photo{
+    width: 300px;
+    height: 300px;
+    margin-left: -180px;
+    box-shadow: 10px 5px 10px purple;
+}
+
+.header-list{
+    color: white;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+p {
+    color:white;
+}
+
+#paragraph-one{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+#paragraph-two{
+    font-size: 6em;
+    margin-bottom: 40px;
+}
+
+#paragraph-three{
+    color: #d3d3d3;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+#paragraph-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
